@@ -96,7 +96,6 @@ setup(
     author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
     url=URL,
-    If your package is a single module, use this instead of 'packages':
     py_modules=['ghana360'],
 
     install_requires=REQUIRED,
