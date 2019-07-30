@@ -26,7 +26,8 @@ class Listener(StreamListener):
         sendMessage(status)
         # print(status.text, file=self.output_file)
 
-    def on_error(self, status_code):
+    def on_error(
+            self, status_code):
         print(status_code)
 
 
@@ -59,7 +60,7 @@ def main():
         stream.disconnect()
 
 
-app = main()
+# app = main()
 
 if __name__ == "__main__":
     main()
