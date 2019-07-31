@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+.circle/
+.vscode/
+*.pyc
+env/

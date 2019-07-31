@@ -1,4 +1,2 @@
-runtime: python27
-api_version: 1
-threadsafe: yes
-entrypoint: python app.py
+runtime: custom
+env: flex
