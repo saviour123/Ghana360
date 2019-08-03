@@ -1,1 +1,1 @@
-web: python app.py
+monitor: python app.py
